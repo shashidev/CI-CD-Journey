@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-RetirementCalculator/Pods-RetirementCalculator-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/AppCenter/AppCenterAnalytics.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/AppCenter/AppCenter.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/AppCenter/AppCenterCrashes.bundle
