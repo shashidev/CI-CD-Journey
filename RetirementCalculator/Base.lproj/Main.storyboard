@@ -67,6 +67,9 @@
                                             <state key="normal" title="Calculate Retirement Amount">
                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </state>
+                                            <connections>
+                                                <action selector="calculateRetirementAmountButton:" destination="SvQ-MJ-CoT" eventType="touchUpInside" id="16p-km-w3w"/>
+                                            </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter some amount to calculate your retirement amount" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7e-Ru-maJ">
                                             <rect key="frame" x="10" y="359" width="373" height="40"/>
@@ -100,6 +103,14 @@
                             <constraint firstItem="fsp-iF-yOc" firstAttribute="bottom" secondItem="DSJ-Js-RWR" secondAttribute="bottom" id="mJN-QV-pEs"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ageTextField" destination="tqk-0t-i5l" id="jPE-dc-KgT"/>
+                        <outlet property="interestRateTextField" destination="0CN-4Y-vj4" id="1LK-No-p8U"/>
+                        <outlet property="monthlyInvestmentsTextField" destination="Oi8-qT-rNI" id="HQV-kI-YAg"/>
+                        <outlet property="resultLabel" destination="d7e-Ru-maJ" id="aem-Bh-Qmp"/>
+                        <outlet property="retirementAgeTextField" destination="6DM-UP-v1m" id="AXf-Uv-QAq"/>
+                        <outlet property="savingsTextField" destination="JJg-H8-ZsX" id="uBP-vL-mEe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KA9-yE-DbO" sceneMemberID="firstResponder"/>
             </objects>
