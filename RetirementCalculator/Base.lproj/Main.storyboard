@@ -110,6 +110,7 @@
                         <outlet property="resultLabel" destination="d7e-Ru-maJ" id="aem-Bh-Qmp"/>
                         <outlet property="retirementAgeTextField" destination="6DM-UP-v1m" id="AXf-Uv-QAq"/>
                         <outlet property="savingsTextField" destination="JJg-H8-ZsX" id="uBP-vL-mEe"/>
+                        <outlet property="tableView" destination="DSJ-Js-RWR" id="r9i-e8-Wd0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KA9-yE-DbO" sceneMemberID="firstResponder"/>
